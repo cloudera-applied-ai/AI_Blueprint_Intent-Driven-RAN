@@ -1,0 +1,1509 @@
+================================================================================
+================================================================================
+
+  Third-Party Software for Intent Driven RAN
+
+--------------------------------------------------------------------------------
+
+The product or component covered by this notice file is subject to copyright owned by Cloudera, the Apache Software Foundation or other third parties, as applicable, and the copyright owner reserves all rights.
+
+The following notices and licenses apply to various third party software packages, including open source software packages, which are distributed with the product identified in this file or accompanying this file.  Such product (i) may not include all of the referenced third party software packages or include only a portion of a given package and (ii) may also include other components, which may contain additional third party software packages as identified in their separate respective notice files.
+
+To the extent required by the license associated with a third party software package, Cloudera, Inc. will provide a copy of the third party software package’s source code upon request and at a reasonable fee.  All requests for source code must be made in writing and mailed to "Cloudera, Inc., ATTN: Legal Dept.,5470 Great America Pkwy, Santa Clara, CA 95054" and include the following information: (i) the name and version number of the covered binary, (ii) name and the version number of the Cloudera product containing the covered binary, (iii) your name, (iv) your company or organization name (if applicable), (v) the license under which you are requesting the source code to be provided, and (vi) your return mailing and email address (if available).
+
+The following 3rd-party software packages may be used by or distributed with intent-based-ran-energy-optimization (RELENG-37855). Any information relevant to third-party vendors listed below are collected using common, reasonable means.
+
+Date generated: 2026-10-7
+
+Revision ID: de1999d425c1e1c91115214bfca615a99dd55222
+
+================================================================================
+================================================================================
+
+
+
+================================================================================
+
+                                  Dependencies
+
+================================================================================
+
+- ipykernel (6.31.0) [BSD-3-Clause]
+- jupyter (1.1.1) [BSD-3-Clause]
+- langchain-nvidia-ai-endpoints (0.3.19) [MIT]
+- llama-index-embeddings-nvidia (0.4.2) [MIT]
+- llama-index-llms-nvidia (0.4.4) [MIT]
+- matplotlib (3.9.4) [Python-2.0, APAFML, BitstreamVera, cc-pd, Apache-2.0, bsl-original, CC0-1.0, Apache-1.1, MatPlotLib, FTL, mit-old-style, OFL-1.1, MIT, PIL, TCL]
+- numpy (2.0.2) [BSD-3-Clause]
+- pandas (2.3.3) [BSD-3-Clause, Apache-2.0, BSD-2-Clause, TCL, Python-2.0, MIT, 0BSD]
+- python-dotenv (1.2.1) [BSD-3-Clause]
+- SQLAlchemy (2.0.46) [MIT]
+
+--------------------------------------------------------------------------------
+Package Title: ipykernel (6.31.0)
+
+Package Locator: pip+ipykernel$6.31.0
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+IPython Kernel for Jupyter
+
+* Declared Licenses *
+BSD-3-Clause
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE
+  - Copyright (c) 2015 IPython Development Team
+--------------------------------------------------------------------------------
+
+* Copyrights *
+BSD-3-Clause
+- Copyright (c) 2015 IPython Development Team
+
+* Package Info *
+
+Authors: IPython Development Team <ipython-dev@scipy.org>
+Package Manager: Pip
+Project URL: https://pypi.org/project/ipykernel/
+Package Download URL: https://files.pythonhosted.org/packages/a5/1d/d5ba6edbfe6fae4c3105bca3a9c889563cc752c7f2de45e333164c7f4846/ipykernel-6.31.0.tar.gz
+Dependency Path: ipykernel
+
+--------------------------------------------------------------------------------
+Package Title: jupyter (1.1.1)
+
+Package Locator: pip+jupyter$1.1.1
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+# Jupyter metapackage
+
+Find more information on [the Jupyter homepage](https://jupyter.org).
+
+## A default installation of most common Jupyter packages
+
+`pip install jupyter` installs the Jupyter Notebook, JupyterLab, and the IPython Kernel.
+
+This is an empty metapackage for user convenience,
+only expressing dependencies on multiple Jupyter packages.
+`jupyter` should not be used as a dependency for any packages.
+
+For more efficient installation of what you need,
+all Jupyter components installed by `pip install jupyter` can be installed separately.
+For example:
+
+- `notebook` - Jupyter Notebook
+- `jupyterlab` - JupyterLab (added to metapackage v1.1)
+- `ipython` - IPython (terminal)
+- `ipykernel` - IPython Kernel for Jupyter
+- `jupyter-console` - terminal Jupyter client
+- `nbconvert` - convert notebooks between formats
+- `ipywidgets` - interactive widgets package for IPython
+
+No longer included in `pip install jupyter`, but still supported:
+
+- `qtconsole` - Qt Console (removed in metapackage v1.1)
+
+
+* Declared Licenses *
+BSD-3-Clause
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE
+  - Copyright (c) 2017 Project Jupyter Contributors
+--------------------------------------------------------------------------------
+
+* Copyrights *
+BSD-3-Clause
+- Copyright (c) 2017 Project Jupyter Contributors
+
+* Package Info *
+
+Authors: jupyter@googlegroups.org
+Package Manager: Pip
+Project URL: https://jupyter.org
+Package Download URL: https://files.pythonhosted.org/packages/58/f3/af28ea964ab8bc1e472dba2e82627d36d470c51f5cd38c37502eeffaa25e/jupyter-1.1.1.tar.gz
+Dependency Path: jupyter
+
+--------------------------------------------------------------------------------
+Package Title: langchain-nvidia-ai-endpoints (0.3.19)
+
+Package Locator: pip+langchain-nvidia-ai-endpoints$0.3.19
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+An integration package connecting NVIDIA AI Endpoints and LangChain
+
+* Declared Licenses *
+MIT
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE
+  - Copyright (c) 2023 LangChain, Inc.
+--------------------------------------------------------------------------------
+
+* Copyrights *
+MIT
+- Copyright (c) 2023 LangChain, Inc.
+
+* Package Info *
+
+Package Manager: Pip
+Project URL: https://pypi.org/project/langchain-nvidia-ai-endpoints/
+Package Download URL: https://files.pythonhosted.org/packages/4d/6f/0fcad6732f124c0d96fd7e8487a0b51db9f167964cfe041e4669a2148dbe/langchain_nvidia_ai_endpoints-0.3.19.tar.gz
+Dependency Path: langchain-nvidia-ai-endpoints
+
+--------------------------------------------------------------------------------
+Package Title: llama-index-embeddings-nvidia (0.4.2)
+
+Package Locator: pip+llama-index-embeddings-nvidia$0.4.2
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+llama-index embeddings nvidia integration
+
+* Declared Licenses *
+MIT
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE
+  - Copyright (c)  Jerry Liu
+--------------------------------------------------------------------------------
+
+* Copyrights *
+MIT
+- Copyright (c)  Jerry Liu
+
+* Package Info *
+
+Authors: Your Name <you@example.com>
+Package Manager: Pip
+Project URL: https://pypi.org/project/llama-index-embeddings-nvidia/
+Package Download URL: https://files.pythonhosted.org/packages/84/62/b2815b70bb0db3073fc3d2cedb7ae79f2c65996aefad9591a66aef499d54/llama_index_embeddings_nvidia-0.4.2.tar.gz
+Dependency Path: llama-index-embeddings-nvidia
+
+--------------------------------------------------------------------------------
+Package Title: llama-index-llms-nvidia (0.4.4)
+
+Package Locator: pip+llama-index-llms-nvidia$0.4.4
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+llama-index llms nvidia api catalog integration
+
+* Declared Licenses *
+MIT
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE
+  - Copyright (c)  Jerry Liu
+--------------------------------------------------------------------------------
+
+* Copyrights *
+MIT
+- Copyright (c)  Jerry Liu
+
+* Package Info *
+
+Authors: Chris Alexiuk <calexiuk@nvidia.com>
+Package Manager: Pip
+Project URL: https://pypi.org/project/llama-index-llms-nvidia/
+Package Download URL: https://files.pythonhosted.org/packages/f7/d0/f9bd3a38ba7d9538dfd6823dff70972e0aa79210bf26681d2dbc1f8eba76/llama_index_llms_nvidia-0.4.4.tar.gz
+Dependency Path: llama-index-llms-nvidia
+
+--------------------------------------------------------------------------------
+Package Title: matplotlib (3.9.4)
+
+Package Locator: pip+matplotlib$3.9.4
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+[![PyPi](https://img.shields.io/pypi/v/matplotlib)](https://pypi.org/project/matplotlib/)
+[![Conda](https://img.shields.io/conda/vn/conda-forge/matplotlib)](https://anaconda.org/conda-forge/matplotlib)
+[![Downloads](https://img.shields.io/pypi/dm/matplotlib)](https://pypi.org/project/matplotlib)
+[![NUMFocus](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
+
+[![Discourse help forum](https://img.shields.io/badge/help_forum-discourse-blue.svg)](https://discourse.matplotlib.org)
+[![Gitter](https://badges.gitter.im/matplotlib/matplotlib.svg)](https://gitter.im/matplotlib/matplotlib)
+[![GitHub issues](https://img.shields.io/badge/issue_tracking-github-blue.svg)](https://github.com/matplotlib/matplotlib/issues)
+[![Contributing](https://img.shields.io/badge/PR-Welcome-%23FF8300.svg?)](https://matplotlib.org/stable/devel/index.html)
+
+[![GitHub actions status](https://github.com/matplotlib/matplotlib/workflows/Tests/badge.svg)](https://github.com/matplotlib/matplotlib/actions?query=workflow%3ATests)
+[![Azure pipelines status](https://dev.azure.com/matplotlib/matplotlib/_apis/build/status/matplotlib.matplotlib?branchName=main)](https://dev.azure.com/matplotlib/matplotlib/_build/latest?definitionId=1&branchName=main)
+[![AppVeyor status](https://ci.appveyor.com/api/projects/status/github/matplotlib/matplotlib?branch=main&svg=true)](https://ci.appveyor.com/project/matplotlib/matplotlib)
+[![Codecov status](https://codecov.io/github/matplotlib/matplotlib/badge.svg?branch=main&service=github)](https://app.codecov.io/gh/matplotlib/matplotlib)
+
+![Matplotlib logotype](https://matplotlib.org/_static/logo2.svg)
+
+Matplotlib is a comprehensive library for creating static, animated, and
+interactive visualizations in Python.
+
+Check out our [home page](https://matplotlib.org/) for more information.
+
+![image](https://matplotlib.org/_static/readme_preview.png)
+
+Matplotlib produces publication-quality figures in a variety of hardcopy
+formats and interactive environments across platforms. Matplotlib can be
+used in Python scripts, Python/IPython shells, web application servers,
+and various graphical user interface toolkits.
+
+## Install
+
+See the [install
+documentation](https://matplotlib.org/stable/users/installing/index.html),
+which is generated from `/doc/users/installing/index.rst`
+
+## Contribute
+
+You've discovered a bug or something else you want to change — excellent!
+
+You've worked out a way to fix it — even better!
+
+You want to tell us about it — best of all!
+
+Start at the [contributing
+guide](https://matplotlib.org/devdocs/devel/contributing.html)!
+
+## Contact
+
+[Discourse](https://discourse.matplotlib.org/) is the discussion forum
+for general questions and discussions and our recommended starting
+point.
+
+Our active mailing lists (which are mirrored on Discourse) are:
+
+-   [Users](https://mail.python.org/mailman/listinfo/matplotlib-users)
+    mailing list: <matplotlib-users@python.org>
+-   [Announcement](https://mail.python.org/mailman/listinfo/matplotlib-announce)
+    mailing list: <matplotlib-announce@python.org>
+-   [Development](https://mail.python.org/mailman/listinfo/matplotlib-devel)
+    mailing list: <matplotlib-devel@python.org>
+
+[Gitter](https://gitter.im/matplotlib/matplotlib) is for coordinating
+development and asking questions directly related to contributing to
+matplotlib.
+
+## Citing Matplotlib
+
+If Matplotlib contributes to a project that leads to publication, please
+acknowledge this by citing Matplotlib.
+
+[A ready-made citation
+entry](https://matplotlib.org/stable/users/project/citing.html) is
+available.
+
+
+* Declared Licenses *
+Python-2.0
+
+* Other Licenses *
+APAFML, BitstreamVera, cc-pd, Apache-2.0, bsl-original, CC0-1.0, Apache-1.1, MatPlotLib, FTL, mit-old-style, OFL-1.1, MIT, PIL, TCL
+
+* APAFML *
+
+* BitstreamVera *
+
+* cc-pd *
+
+* Apache-2.0 *
+
+* bsl-original *
+
+* CC0-1.0 *
+
+* Apache-1.1 *
+
+* MatPlotLib *
+
+* FTL *
+
+* mit-old-style *
+
+* OFL-1.1 *
+
+* MIT *
+
+* PIL *
+
+* TCL *
+
+* Copyrights *
+Python-2.0
+- Copyright (c) 2003-2004 Andrew Straw, Jeremy O'Donoghue and others
+BitstreamVera
+- Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is
+Apache-2.0
+- Copyright (c) 2010-2012 Google Inc.
+bsl-original
+- Copyright (c) 2002-2005 Maxim Shemanarev (http://www.antigrain.com)
+CC0-1.0
+- Copyright (c)  and
+MatPlotLib
+- Copyright (c)  i.e., "Copyright (c)
+mit-old-style
+- Copyright (c) 1995 Trinity College Computing Center.
+OFL-1.1
+- Copyright (c) 1997, 2009 American Mathematical Society (http://www.ams.org).
+MIT
+- Copyright (c) 2009 Pierre Raybaut
+PIL
+- Copyright (c) 2001-2004 by Fredrik Lundh
+TCL
+- Copyright (c) 1987-1994 The Regents of the University of California.
+
+* Package Info *
+
+Authors: matplotlib-users@python.org
+Package Manager: Pip
+Project URL: https://matplotlib.org
+Package Download URL: https://files.pythonhosted.org/packages/df/17/1747b4154034befd0ed33b52538f5eb7752d05bb51c5e2a31470c3bc7d52/matplotlib-3.9.4.tar.gz
+Dependency Path: matplotlib
+
+--------------------------------------------------------------------------------
+Package Title: numpy (2.0.2)
+
+Package Locator: pip+numpy$2.0.2
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+<h1 align="center">
+<img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" width="300">
+</h1><br>
+
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](
+https://numfocus.org)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/numpy.svg?label=PyPI%20downloads)](
+https://pypi.org/project/numpy/)
+[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/numpy.svg?label=Conda%20downloads)](
+https://anaconda.org/conda-forge/numpy)
+[![Stack Overflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue.svg)](
+https://stackoverflow.com/questions/tagged/numpy)
+[![Nature Paper](https://img.shields.io/badge/DOI-10.1038%2Fs41592--019--0686--2-blue)](
+https://doi.org/10.1038/s41586-020-2649-2)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/numpy/numpy/badge)](https://api.securityscorecards.dev/projects/github.com/numpy/numpy)
+
+
+NumPy is the fundamental package for scientific computing with Python.
+
+- **Website:** https://www.numpy.org
+- **Documentation:** https://numpy.org/doc
+- **Mailing list:** https://mail.python.org/mailman/listinfo/numpy-discussion
+- **Source code:** https://github.com/numpy/numpy
+- **Contributing:** https://www.numpy.org/devdocs/dev/index.html
+- **Bug reports:** https://github.com/numpy/numpy/issues
+- **Report a security vulnerability:** https://tidelift.com/docs/security
+
+It provides:
+
+- a powerful N-dimensional array object
+- sophisticated (broadcasting) functions
+- tools for integrating C/C++ and Fortran code
+- useful linear algebra, Fourier transform, and random number capabilities
+
+Testing:
+
+NumPy requires `pytest` and `hypothesis`.  Tests can then be run after installation with:
+
+    python -c "import numpy, sys; sys.exit(numpy.test() is False)"
+
+Code of Conduct
+----------------------
+
+NumPy is a community-driven open source project developed by a diverse group of
+[contributors](https://numpy.org/teams/). The NumPy leadership has made a strong
+commitment to creating an open, inclusive, and positive community. Please read the
+[NumPy Code of Conduct](https://numpy.org/code-of-conduct/) for guidance on how to interact
+with others in a way that makes our community thrive.
+
+Call for Contributions
+----------------------
+
+The NumPy project welcomes your expertise and enthusiasm!
+
+Small improvements or fixes are always appreciated. If you are considering larger contributions
+to the source code, please contact us through the [mailing
+list](https://mail.python.org/mailman/listinfo/numpy-discussion) first.
+
+Writing code isn’t the only way to contribute to NumPy. You can also:
+- review pull requests
+- help us stay on top of new and old issues
+- develop tutorials, presentations, and other educational materials
+- maintain and improve [our website](https://github.com/numpy/numpy.org)
+- develop graphic design for our brand assets and promotional materials
+- translate website content
+- help with outreach and onboard new contributors
+- write grant proposals and help with other fundraising efforts
+
+For more information about the ways you can contribute to NumPy, visit [our website](https://numpy.org/contribute/). 
+If you’re unsure where to start or how your skills fit in, reach out! You can
+ask on the mailing list or here, on GitHub, by opening a new issue or leaving a
+comment on a relevant issue that is already open.
+
+Our preferred channels of communication are all public, but if you’d like to
+speak to us in private first, contact our community coordinators at
+numpy-team@googlegroups.com or on Slack (write numpy-team@googlegroups.com for
+an invitation).
+
+We also have a biweekly community call, details of which are announced on the
+mailing list. You are very welcome to join.
+
+If you are new to contributing to open source, [this
+guide](https://opensource.guide/how-to-contribute/) helps explain why, what,
+and how to successfully get involved.
+
+
+
+
+* Declared Licenses *
+BSD-3-Clause
+
+* Copyrights *
+BSD-3-Clause
+- Copyright (c) 2005-2022 NumPy Developers.
+
+* Package Info *
+
+Package Manager: Pip
+Project URL: https://www.numpy.org
+Package Download URL: https://files.pythonhosted.org/packages/a9/75/10dd1f8116a8b796cb2c737b674e02d02e80454bda953fa7e65d8c12b016/numpy-2.0.2.tar.gz
+Dependency Path: numpy
+
+--------------------------------------------------------------------------------
+Package Title: pandas (2.3.3)
+
+Package Locator: pip+pandas$2.3.3
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+Powerful data structures for data analysis, time series, and statistics
+
+* Declared Licenses *
+BSD-3-Clause, Apache-2.0, BSD-2-Clause, TCL, Python-2.0, MIT, 0BSD
+
+* BSD-3-Clause *
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE
+  - Copyright (c) 2008-2011 AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+  - Copyright (c) 2011-2023 Open source contributors.
+- LICENSES/DATEUTIL_LICENSE
+  - Copyright (c) 2003-2011 Gustavo Niemeyer <gustavo@niemeyer.net>
+  - Copyright (c) 2012-2014 Tomi Pieviläinen <tomi.pievilainen@iki.fi>
+  - Copyright (c) 2014-2016 Yaron de Leeuw <me@jarondl.net>
+  - Copyright (c) 2015 Paul Ganssle <paul@ganssle.io>
+  - Copyright (c) 2015 dateutil contributors (see AUTHORS file)
+  - Copyright (c) 2017 Paul Ganssle <paul@ganssle.io>
+  - Copyright (c) 2017 dateutil contributors (see AUTHORS file)
+- LICENSES/NUMPY_LICENSE
+  - Copyright (c) 2005-2023 NumPy Developers.
+- LICENSES/PYPERCLIP_LICENSE
+  - Copyright (c) 2014 Al Sweigart
+- LICENSES/ULTRAJSON_LICENSE
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2005, 2006, 2007 
+  - Copyright (c) 2014 Electronic Arts Inc.
+- pandas/_libs/include/pandas/vendored/ujson/lib/ultrajson.h
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/_libs/src/vendored/ujson/lib/ultrajsondec.c
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/_libs/src/vendored/ujson/lib/ultrajsonenc.c
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/_libs/src/vendored/ujson/python/JSONtoObj.c
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/_libs/src/vendored/ujson/python/objToJSON.c
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/_libs/src/vendored/ujson/python/ujson.c
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/util/version/__init__.py
+- PKG-INFO
+  - Copyright (c) 2008-2011 AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+  - Copyright (c) 2011-2023 Open source contributors.
+--------------------------------------------------------------------------------
+
+* Apache-2.0 *
+--------------------------------------------------------------------------------
+File matches:
+- LICENSES/DATEUTIL_LICENSE
+  - Copyright (c) 2003-2011 Gustavo Niemeyer <gustavo@niemeyer.net>
+  - Copyright (c) 2012-2014 Tomi Pieviläinen <tomi.pievilainen@iki.fi>
+  - Copyright (c) 2014-2016 Yaron de Leeuw <me@jarondl.net>
+  - Copyright (c) 2015 Paul Ganssle <paul@ganssle.io>
+  - Copyright (c) 2015 dateutil contributors (see AUTHORS file)
+  - Copyright (c) 2017 Paul Ganssle <paul@ganssle.io>
+  - Copyright (c) 2017 dateutil contributors (see AUTHORS file)
+- LICENSES/PACKAGING_LICENSE
+  - Copyright (c)  Donald Stufft and individual contributors.
+- LICENSES/XARRAY_LICENSE
+- pandas/util/version/__init__.py
+--------------------------------------------------------------------------------
+
+* BSD-2-Clause *
+--------------------------------------------------------------------------------
+File matches:
+- AUTHORS.md
+  - Copyright (c)  Policy
+  - Copyright (c)  model. Each contributor maintains copyright
+  - Copyright (c)  of any single
+  - Copyright (c)  of the
+  - Copyright (c)  on,
+  - Copyright (c) 2008-2011 AQR Capital Management, LLC
+  - Copyright (c) 2011-2012 Lambda Foundry, Inc.
+  - Copyright (c) 2011-2012 PyData Development Team
+  - Copyright (c) 2012 PyData Development Team
+- LICENSES/BOTTLENECK_LICENCE
+  - Copyright (c) 2010-2019 Keith Goodman
+  - Copyright (c) 2019 Bottleneck Developers
+- LICENSES/PACKAGING_LICENSE
+  - Copyright (c)  Donald Stufft and individual contributors.
+- pandas/_libs/include/pandas/datetime/date_conversions.h
+  - Copyright (c) 2020 PyData Development Team
+- pandas/_libs/include/pandas/datetime/pd_datetime.h
+  - Copyright (c) 2005-2011 NumPy Developers
+  - Copyright (c) 2011 by Enthought, Inc.
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/include/pandas/parser/io.h
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/include/pandas/portable.h
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/include/pandas/skiplist.h
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/include/pandas/vendored/numpy/datetime/np_datetime_strings.h
+  - Copyright (c) 2005-2011 NumPy Developers
+  - Copyright (c) 2011 by Enthought, Inc.
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/include/pandas/vendored/numpy/datetime/np_datetime.h
+  - Copyright (c) 2005-2011 NumPy Developers
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/src/datetime/date_conversions.c
+  - Copyright (c) 2020 PyData Development Team
+- pandas/_libs/src/datetime/pd_datetime.c
+  - Copyright (c) 2005-2011 NumPy Developers
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/src/parser/io.c
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/src/vendored/numpy/datetime/np_datetime_strings.c
+  - Copyright (c) 2005-2011 NumPy Developers
+  - Copyright (c) 2011 by Enthought, Inc.
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/src/vendored/numpy/datetime/np_datetime.c
+  - Copyright (c) 2005-2011 NumPy Developers
+  - Copyright (c) 2016 PyData Development Team
+--------------------------------------------------------------------------------
+
+* TCL *
+--------------------------------------------------------------------------------
+File matches:
+- LICENSES/ULTRAJSON_LICENSE
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2005, 2006, 2007 
+  - Copyright (c) 2014 Electronic Arts Inc.
+--------------------------------------------------------------------------------
+
+* Python-2.0 *
+--------------------------------------------------------------------------------
+File matches:
+- LICENSES/PSF_LICENSE
+  - Copyright (c)  
+  - Copyright (c)  i.e., "Copyright (c)
+  - Copyright (c) 1991 - 1995 Stichting Mathematisch Centrum Amsterdam,
+  - Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 
+--------------------------------------------------------------------------------
+
+* MIT *
+--------------------------------------------------------------------------------
+File matches:
+- LICENSES/HAVEN_LICENSE
+  - Copyright (c) 2019 Hadley Wickham; RStudio; and Evan Miller
+- LICENSES/HAVEN_MIT
+- LICENSES/KLIB_LICENSE
+  - Copyright (c) 2008 Attractive Chaos <attractor@live.co.uk>
+- LICENSES/MUSL_LICENSE
+  - Copyright (c)  comments are original works
+  - Copyright (c) 1993,2004 Sun Microsystems or
+  - Copyright (c) 1994 David Burren. It is licensed under a BSD license.
+  - Copyright (c) 1999-2019 Arm Limited.
+  - Copyright (c) 2001-2008 Ville Laurikari and licensed
+  - Copyright (c) 2003-2009 Bruce D. Evans or
+  - Copyright (c) 2003-2009 Steven G. Kargl or
+  - Copyright (c) 2003-2011 David Schultz or
+  - Copyright (c) 2005-2020 Rich Felker, et al.
+  - Copyright (c) 2008 
+  - Copyright (c) 2008 Stephen L. Moshier or
+  - Copyright (c) 2011 
+  - Copyright (c) 2017-2018 Arm Limited
+- LICENSES/PYUPGRADE_LICENSE
+  - Copyright (c) 2017 Anthony Sottile
+- LICENSES/SAS7BDAT_LICENSE
+  - Copyright (c) 2015-2019 Jared Hobbs
+--------------------------------------------------------------------------------
+
+* 0BSD *
+--------------------------------------------------------------------------------
+File matches:
+- LICENSES/PSF_LICENSE
+  - Copyright (c)  
+  - Copyright (c)  i.e., "Copyright (c)
+  - Copyright (c) 1991 - 1995 Stichting Mathematisch Centrum Amsterdam,
+  - Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 
+--------------------------------------------------------------------------------
+
+* Copyrights *
+BSD-3-Clause
+- Copyright (c) 2008-2011 AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+- Copyright (c) 2011-2023 Open source contributors.
+- Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights
+- Copyright (c) 1988-1993 The Regents of the University of California.
+- Copyright (c) 1994 Sun Microsystems, Inc.
+- Copyright (c) 2017 Paul Ganssle <paul@ganssle.io>
+- Copyright (c) 2017 dateutil contributors (see AUTHORS file)
+- Copyright (c) 2003-2011 Gustavo Niemeyer <gustavo@niemeyer.net>
+- Copyright (c) 2012-2014 Tomi Pieviläinen <tomi.pievilainen@iki.fi>
+- Copyright (c) 2014-2016 Yaron de Leeuw <me@jarondl.net>
+- Copyright (c) 2015 Paul Ganssle <paul@ganssle.io>
+- Copyright (c) 2015 dateutil contributors (see AUTHORS file)
+- Copyright (c) 2014 Al Sweigart
+- Copyright (c) 2005-2023 NumPy Developers.
+- Copyright (c) 2014 Electronic Arts Inc.
+- Copyright (c) 2005, 2006, 2007 
+Apache-2.0
+- Copyright (c) 2017 Paul Ganssle <paul@ganssle.io>
+- Copyright (c) 2017 dateutil contributors (see AUTHORS file)
+- Copyright (c) 2003-2011 Gustavo Niemeyer <gustavo@niemeyer.net>
+- Copyright (c) 2012-2014 Tomi Pieviläinen <tomi.pievilainen@iki.fi>
+- Copyright (c) 2014-2016 Yaron de Leeuw <me@jarondl.net>
+- Copyright (c) 2015 Paul Ganssle <paul@ganssle.io>
+- Copyright (c) 2015 dateutil contributors (see AUTHORS file)
+- Copyright (c)  Donald Stufft and individual contributors.
+BSD-2-Clause
+- Copyright (c) 2008-2011 AQR Capital Management, LLC
+- Copyright (c) 2016 PyData Development Team
+- Copyright (c) 2005-2011 NumPy Developers
+- Copyright (c) 2010-2019 Keith Goodman
+- Copyright (c) 2019 Bottleneck Developers
+- Copyright (c) 2011 by Enthought, Inc.
+- Copyright (c)  Donald Stufft and individual contributors.
+- Copyright (c) 2020 PyData Development Team
+- Copyright (c) 2011-2012 Lambda Foundry, Inc.
+- Copyright (c) 2011-2012 PyData Development Team
+- Copyright (c)  Policy
+- Copyright (c)  model. Each contributor maintains copyright
+- Copyright (c)  of any single
+- Copyright (c)  of the
+- Copyright (c)  on,
+- Copyright (c) 2012 PyData Development Team
+TCL
+- Copyright (c) 2014 Electronic Arts Inc.
+- Copyright (c) 2005, 2006, 2007 
+- Copyright (c) 1988-1993 The Regents of the University of California.
+- Copyright (c) 1994 Sun Microsystems, Inc.
+Python-2.0
+- Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 
+- Copyright (c)  i.e., "Copyright (c)
+- Copyright (c)  
+- Copyright (c) 1991 - 1995 Stichting Mathematisch Centrum Amsterdam,
+MIT
+- Copyright (c) 2019 Hadley Wickham; RStudio; and Evan Miller
+- Copyright (c) 2008 Attractive Chaos <attractor@live.co.uk>
+- Copyright (c) 2005-2020 Rich Felker, et al.
+- Copyright (c) 2001-2008 Ville Laurikari and licensed
+- Copyright (c) 1993,2004 Sun Microsystems or
+- Copyright (c) 2003-2011 David Schultz or
+- Copyright (c) 2003-2009 Steven G. Kargl or
+- Copyright (c) 2003-2009 Bruce D. Evans or
+- Copyright (c) 2008 Stephen L. Moshier or
+- Copyright (c) 2017-2018 Arm Limited
+- Copyright (c) 2008 
+- Copyright (c) 1999-2019 Arm Limited.
+- Copyright (c) 1994 David Burren. It is licensed under a BSD license.
+- Copyright (c) 2011 
+- Copyright (c)  comments are original works
+- Copyright (c) 2015-2019 Jared Hobbs
+- Copyright (c) 2017 Anthony Sottile
+0BSD
+- Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 
+- Copyright (c)  i.e., "Copyright (c)
+- Copyright (c)  
+- Copyright (c) 1991 - 1995 Stichting Mathematisch Centrum Amsterdam,
+
+* Package Info *
+
+Authors: The Pandas Development Team <pandas-dev@python.org>
+Package Manager: Pip
+Project URL: https://pypi.org/project/pandas/
+Package Download URL: https://files.pythonhosted.org/packages/33/01/d40b85317f86cf08d853a4f495195c73815fdf205eef3993821720274518/pandas-2.3.3.tar.gz
+Dependency Path: pandas
+
+--------------------------------------------------------------------------------
+Package Title: python-dotenv (1.2.1)
+
+Package Locator: pip+python-dotenv$1.2.1
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+Read key-value pairs from a .env file and set them as environment variables
+
+* Declared Licenses *
+BSD-3-Clause
+--------------------------------------------------------------------------------
+File matches:
+- docs/license.md
+  - Copyright (c) 2014 Saurabh Kumar (python-dotenv), 2013, Ted Tieken (django-dotenv-rw), 2013, Jacob Kaplan-Moss (django-dotenv)
+- LICENSE
+  - Copyright (c) 2014 Saurabh Kumar (python-dotenv), 2013, Ted Tieken (django-dotenv-rw), 2013, Jacob Kaplan-Moss (django-dotenv)
+--------------------------------------------------------------------------------
+
+* Copyrights *
+BSD-3-Clause
+- Copyright (c) 2014 Saurabh Kumar (python-dotenv), 2013, Ted Tieken (django-dotenv-rw), 2013, Jacob Kaplan-Moss (django-dotenv)
+
+* Package Info *
+
+Authors: Saurabh Kumar <me+github@saurabh-kumar.com>
+Package Manager: Pip
+Project URL: https://pypi.org/project/python-dotenv/
+Package Download URL: https://files.pythonhosted.org/packages/f0/26/19cadc79a718c5edbec86fd4919a6b6d3f681039a2f6d66d14be94e75fb9/python_dotenv-1.2.1.tar.gz
+Dependency Path: python-dotenv
+
+--------------------------------------------------------------------------------
+Package Title: SQLAlchemy (2.0.46)
+
+Package Locator: pip+SQLAlchemy$2.0.46
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+SQLAlchemy
+==========
+
+|PyPI| |Python| |Downloads|
+
+.. |PyPI| image:: https://img.shields.io/pypi/v/sqlalchemy
+    :target: https://pypi.org/project/sqlalchemy
+    :alt: PyPI
+
+.. |Python| image:: https://img.shields.io/pypi/pyversions/sqlalchemy
+    :target: https://pypi.org/project/sqlalchemy
+    :alt: PyPI - Python Version
+
+.. |Downloads| image:: https://static.pepy.tech/badge/sqlalchemy/month
+    :target: https://pepy.tech/project/sqlalchemy
+    :alt: PyPI - Downloads
+
+
+The Python SQL Toolkit and Object Relational Mapper
+
+Introduction
+-------------
+
+SQLAlchemy is the Python SQL toolkit and Object Relational Mapper
+that gives application developers the full power and
+flexibility of SQL. SQLAlchemy provides a full suite
+of well known enterprise-level persistence patterns,
+designed for efficient and high-performing database
+access, adapted into a simple and Pythonic domain
+language.
+
+Major SQLAlchemy features include:
+
+* An industrial strength ORM, built
+  from the core on the identity map, unit of work,
+  and data mapper patterns.   These patterns
+  allow transparent persistence of objects
+  using a declarative configuration system.
+  Domain models
+  can be constructed and manipulated naturally,
+  and changes are synchronized with the
+  current transaction automatically.
+* A relationally-oriented query system, exposing
+  the full range of SQL's capabilities
+  explicitly, including joins, subqueries,
+  correlation, and most everything else,
+  in terms of the object model.
+  Writing queries with the ORM uses the same
+  techniques of relational composition you use
+  when writing SQL.  While you can drop into
+  literal SQL at any time, it's virtually never
+  needed.
+* A comprehensive and flexible system
+  of eager loading for related collections and objects.
+  Collections are cached within a session,
+  and can be loaded on individual access, all
+  at once using joins, or by query per collection
+  across the full result set.
+* A Core SQL construction system and DBAPI
+  interaction layer.  The SQLAlchemy Core is
+  separate from the ORM and is a full database
+  abstraction layer in its own right, and includes
+  an extensible Python-based SQL expression
+  language, schema metadata, connection pooling,
+  type coercion, and custom types.
+* All primary and foreign key constraints are
+  assumed to be composite and natural.  Surrogate
+  integer primary keys are of course still the
+  norm, but SQLAlchemy never assumes or hardcodes
+  to this model.
+* Database introspection and generation.  Database
+  schemas can be "reflected" in one step into
+  Python structures representing database metadata;
+  those same structures can then generate
+  CREATE statements right back out - all within
+  the Core, independent of the ORM.
+
+SQLAlchemy's philosophy:
+
+* SQL databases behave less and less like object
+  collections the more size and performance start to
+  matter; object collections behave less and less like
+  tables and rows the more abstraction starts to matter.
+  SQLAlchemy aims to accommodate both of these
+  principles.
+* An ORM doesn't need to hide the "R".   A relational
+  database provides rich, set-based functionality
+  that should be fully exposed.   SQLAlchemy's
+  ORM provides an open-ended set of patterns
+  that allow a developer to construct a custom
+  mediation layer between a domain model and
+  a relational schema, turning the so-called
+  "object relational impedance" issue into
+  a distant memory.
+* The developer, in all cases, makes all decisions
+  regarding the design, structure, and naming conventions
+  of both the object model as well as the relational
+  schema.   SQLAlchemy only provides the means
+  to automate the execution of these decisions.
+* With SQLAlchemy, there's no such thing as
+  "the ORM generated a bad query" - you
+  retain full control over the structure of
+  queries, including how joins are organized,
+  how subqueries and correlation is used, what
+  columns are requested.  Everything SQLAlchemy
+  does is ultimately the result of a developer-initiated 
+  decision.
+* Don't use an ORM if the problem doesn't need one.
+  SQLAlchemy consists of a Core and separate ORM
+  component.   The Core offers a full SQL expression
+  language that allows Pythonic construction
+  of SQL constructs that render directly to SQL
+  strings for a target database, returning
+  result sets that are essentially enhanced DBAPI
+  cursors.
+* Transactions should be the norm.  With SQLAlchemy's
+  ORM, nothing goes to permanent storage until
+  commit() is called.  SQLAlchemy encourages applications
+  to create a consistent means of delineating
+  the start and end of a series of operations.
+* Never render a literal value in a SQL statement.
+  Bound parameters are used to the greatest degree
+  possible, allowing query optimizers to cache
+  query plans effectively and making SQL injection
+  attacks a non-issue.
+
+Documentation
+-------------
+
+Latest documentation is at:
+
+https://www.sqlalchemy.org/docs/
+
+Installation / Requirements
+---------------------------
+
+Full documentation for installation is at
+`Installation <https://www.sqlalchemy.org/docs/intro.html#installation>`_.
+
+Getting Help / Development / Bug reporting
+------------------------------------------
+
+Please refer to the `SQLAlchemy Community Guide <https://www.sqlalchemy.org/support.html>`_.
+
+Code of Conduct
+---------------
+
+Above all, SQLAlchemy places great emphasis on polite, thoughtful, and
+constructive communication between users and developers.
+Please see our current Code of Conduct at
+`Code of Conduct <https://www.sqlalchemy.org/codeofconduct.html>`_.
+
+License
+-------
+
+SQLAlchemy is distributed under the `MIT license
+<https://www.opensource.org/licenses/mit-license.php>`_.
+
+
+
+* Declared Licenses *
+MIT
+--------------------------------------------------------------------------------
+File matches:
+- doc/build/copyright.rst
+  - Copyright (c) 2005-2026 Michael Bayer and contributors.
+- lib/SQLAlchemy.egg-info/PKG-INFO
+- lib/sqlalchemy/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/connectors/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/connectors/aioodbc.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/connectors/asyncio.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/connectors/pyodbc.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/cyextension/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/cyextension/collections.pyx
+  - Copyright (c) 2005-2024 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/cyextension/immutabledict.pxd
+  - Copyright (c) 2005-2024 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/cyextension/immutabledict.pyx
+  - Copyright (c) 2005-2024 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/cyextension/processors.pyx
+  - Copyright (c) 2005-2024 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/cyextension/resultproxy.pyx
+  - Copyright (c) 2005-2024 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/cyextension/util.pyx
+  - Copyright (c) 2005-2024 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/_typing.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mssql/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mssql/aioodbc.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mssql/base.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mssql/information_schema.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mssql/json.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mssql/provision.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mssql/pymssql.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mssql/pyodbc.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/aiomysql.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors <see AUTHORS
+- lib/sqlalchemy/dialects/mysql/asyncmy.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors <see AUTHORS
+- lib/sqlalchemy/dialects/mysql/base.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/cymysql.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/dml.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/enumerated.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/expression.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/json.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/mariadb.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/mariadbconnector.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/mysqlconnector.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/mysqldb.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/provision.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/pymysql.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/pyodbc.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/reflection.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/mysql/reserved_words.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/oracle/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/oracle/base.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/oracle/cx_oracle.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/oracle/dictionary.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/oracle/oracledb.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/oracle/provision.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/oracle/types.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/oracle/vector.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/_psycopg_common.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/array.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/asyncpg.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors <see AUTHORS
+- lib/sqlalchemy/dialects/postgresql/base.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/dml.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/ext.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/hstore.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/json.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/named_types.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/operators.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/pg_catalog.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/pg8000.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors <see AUTHORS
+- lib/sqlalchemy/dialects/postgresql/provision.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/psycopg.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/psycopg2.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/psycopg2cffi.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/ranges.py
+  - Copyright (c) 2013-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/postgresql/types.py
+  - Copyright (c) 2013-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/sqlite/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/sqlite/aiosqlite.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/sqlite/base.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/sqlite/dml.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/sqlite/json.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/sqlite/provision.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/sqlite/pysqlcipher.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/dialects/sqlite/pysqlite.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/_py_processors.py
+  - Copyright (c) 2010 Gaetan de Menten gdementen@gmail.com
+  - Copyright (c) 2010-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/_py_row.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/_py_util.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/base.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/characteristics.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/create.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/cursor.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/default.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/mock.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/processors.py
+  - Copyright (c) 2010 Gaetan de Menten gdementen@gmail.com
+  - Copyright (c) 2010-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/reflection.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/result.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/strategies.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/url.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/engine/util.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/event/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/event/api.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/event/attr.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/event/base.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/event/legacy.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/event/registry.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/events.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/exc.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/associationproxy.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/asyncio/__init__.py
+  - Copyright (c) 2020-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/asyncio/base.py
+  - Copyright (c) 2020-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/asyncio/exc.py
+  - Copyright (c) 2020-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/asyncio/result.py
+  - Copyright (c) 2020-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/asyncio/scoping.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/asyncio/session.py
+  - Copyright (c) 2020-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/automap.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/compiler.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/declarative/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/declarative/extensions.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/horizontal_shard.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/hybrid.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/mutable.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/mypy/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/mypy/apply.py
+  - Copyright (c) 2021-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/mypy/decl_class.py
+  - Copyright (c) 2021-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/mypy/infer.py
+  - Copyright (c) 2021-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/mypy/names.py
+  - Copyright (c) 2021-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/mypy/plugin.py
+  - Copyright (c) 2021-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/mypy/util.py
+  - Copyright (c) 2021-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/orderinglist.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/ext/serializer.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/future/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/future/engine.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/inspection.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/log.py
+  - Copyright (c) 2006-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/_orm_constructors.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/_typing.py
+  - Copyright (c) 2022-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/attributes.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/base.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/bulk_persistence.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/clsregistry.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/collections.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/context.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/decl_api.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/decl_base.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/dependency.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/descriptor_props.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/dynamic.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/evaluator.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/events.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/exc.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/identity.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/instrumentation.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/interfaces.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/loading.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/mapped_collection.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/mapper.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/path_registry.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/persistence.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/properties.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/query.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/relationships.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/scoping.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/session.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/state_changes.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/state.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/strategies.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/strategy_options.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/sync.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/unitofwork.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/orm/writeonly.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/pool/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/pool/base.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/pool/events.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/pool/impl.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/schema.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/_dml_constructors.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/_elements_constructors.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/_orm_types.py
+  - Copyright (c) 2022-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/_py_util.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/_selectable_constructors.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/annotation.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/cache_key.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/coercions.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/compiler.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/crud.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/ddl.py
+  - Copyright (c) 2009-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/default_comparator.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/dml.py
+  - Copyright (c) 2009-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/elements.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/expression.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/functions.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/lambdas.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/naming.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/operators.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/roles.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/schema.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/selectable.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/sqltypes.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/traversals.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/util.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/sql/visitors.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/assertions.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/assertsql.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/asyncio.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/config.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/engines.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/entities.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/exclusions.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/fixtures/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/fixtures/base.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/fixtures/mypy.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/fixtures/orm.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/fixtures/sql.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/pickleable.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/plugin/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/plugin/bootstrap.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/plugin/plugin_base.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/plugin/pytestplugin.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/profiling.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/provision.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/requirements.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/schema.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_cte.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_ddl.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_deprecations.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_dialect.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_insert.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_reflection.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_results.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_rowcount.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_select.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_sequence.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_types.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_unicode_ddl.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/suite/test_update_delete.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/util.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/testing/warnings.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/types.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/__init__.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/_collections.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/_concurrency_py3k.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/_has_cy.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/_py_collections.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/compat.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/concurrency.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/deprecations.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/langhelpers.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/preloaded.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/queue.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/tool_support.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/topological.py
+  - Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- lib/sqlalchemy/util/typing.py
+  - Copyright (c) 2022-2026 the SQLAlchemy authors and contributors
+- LICENSE
+  - Copyright (c) 2005-2026 SQLAlchemy authors and contributors <see AUTHORS file>.
+- PKG-INFO
+- README.rst
+- tools/normalize_file_headers.py
+  - Copyright (c) 2005 this_year} the SQLAlchemy authors and
+--------------------------------------------------------------------------------
+
+* Copyrights *
+MIT
+- Copyright (c) 2005-2026 SQLAlchemy authors and contributors <see AUTHORS file>.
+- Copyright (c) 2005-2026 the SQLAlchemy authors and contributors
+- Copyright (c) 2005-2024 the SQLAlchemy authors and contributors
+- Copyright (c) 2005-2026 the SQLAlchemy authors and contributors <see AUTHORS
+- Copyright (c) 2022-2026 the SQLAlchemy authors and contributors
+- Copyright (c) 2020-2026 the SQLAlchemy authors and contributors
+- Copyright (c) 2021-2026 the SQLAlchemy authors and contributors
+- Copyright (c) 2005-2026 Michael Bayer and contributors.
+- Copyright (c) 2013-2026 the SQLAlchemy authors and contributors
+- Copyright (c) 2010-2026 the SQLAlchemy authors and contributors
+- Copyright (c) 2010 Gaetan de Menten gdementen@gmail.com
+- Copyright (c) 2009-2026 the SQLAlchemy authors and contributors
+- Copyright (c) 2006-2026 the SQLAlchemy authors and contributors
+- Copyright (c) 2005 this_year} the SQLAlchemy authors and
+
+* Package Info *
+
+Authors: mike_mp@zzzcomputing.com
+Package Manager: Pip
+Project URL: https://www.sqlalchemy.org
+Package Download URL: https://files.pythonhosted.org/packages/06/aa/9ce0f3e7a9829ead5c8ce549392f33a12c4555a6c0609bb27d882e9c7ddf/sqlalchemy-2.0.46.tar.gz
+Dependency Path: SQLAlchemy
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Report Generated by FOSSA on 2026-10-7

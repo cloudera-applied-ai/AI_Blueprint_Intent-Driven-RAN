@@ -1,0 +1,51 @@
+# Cloudera Blueprint catalog metadata
+
+# --- Identity ---
+name: "Intent-Driven RAN (Energy Efficiency)"
+slug: "intent-driven-ran"
+description: "Closed-loop 5G RAN energy optimization with VIAVI AI RSG simulation and dual-LLM Planner/Validation agents on Cloudera AI OpenAI-compatible endpoints."
+reprise_link: ""
+
+# --- Classification (website filters) ---
+catalog_classification:
+  - Enterprise Blueprint
+launchable: false
+lifecycle_status: Active
+
+# --- Industry & alignment ---
+industry: Telecom
+industry_alignment: "Vertical"
+target_vertical: "5G RAN energy and QoS optimization"
+
+# --- Tags (website search & browse) ---
+tags:
+  - ran
+  - 5g
+  - energy-efficiency
+  - viavi
+  - ai-rsg
+  - closed-loop
+  - cloudera-ai-inference
+  - llm-agents
+
+# --- Relationships ---
+product_mapping:
+  - Cloudera AI Inference Service
+  - Cloudera AI Workbench
+model_dependencies:
+  - Open-weight LLM on Cloudera AI (e.g. Nemotron, Qwen2.5)
+
+# --- Provenance ---
+publisher: cloudera
+source: Partner
+
+# --- Repository & assets ---
+public_github_link: "https://github.com/cloudera-applied-ai/AI_Blueprint_Intent-Driven-RAN"
+
+# --- Ownership ---
+maintainer_name: "Cloudera Applied AI"
+
+# --- Dates ---
+date_created: "2026-08-01"
+date_updated: "2026-10-14"
+published_date: "2026-10-14"
